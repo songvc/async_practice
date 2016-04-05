@@ -21,10 +21,15 @@ function output(text) {
 
 function getFile(file) {
 	// what do we do here?
+	return ASQ(function(done){
+		fakeAjax(file,done);
+	})
 }
 
 // request an array of files at once in "parallel"
 // ???
+
+
 
 var p1 = getFile("file1");
 var p2 = getFile("file2");
