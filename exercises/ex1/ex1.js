@@ -30,7 +30,7 @@ function handleResponse (filename, contents) {
 	if (!(responses in responses) {
 		responses[filename] = contents;
 	}
-	var filenames = ["file1", "file2", "file3"];
+	var filenames  = ["file1", "file2", "file3"];
 
 	for (var i = 0; i <filesnames.length; i++) {
 		if (filenames[i] in responses) {
